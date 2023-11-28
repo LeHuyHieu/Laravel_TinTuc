@@ -1,0 +1,33 @@
+.trand-right-img {
+    overflow: hidden;
+    max-width: 120px;
+    min-width: 120px;
+    img {
+        object-fit: cover;
+    }
+}
+.main-header {
+    .main-menu {
+        ul {
+            ul.submenu {
+                li{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+ul.submenu_item {
+    li {
+        width: 100%;
+        a {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+}
+
+.weekly2-img {
+    max-height: 165px;
+    overflow: hidden;
+}

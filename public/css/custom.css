@@ -1,0 +1,46 @@
+.weekly2-img {
+  max-height: 165px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.news_of_interest .weekly-img {
+  max-height: 230px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.tab-content .what-img {
+  max-height: 222px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+#contactForm label.error {
+  color: rgb(238, 9, 9);
+}
+
+.details .whats-news-caption .single-what-news .what-img {
+  height: 222px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.trand-right-single .trand-right-img {
+  max-height: 120px;
+  border-radius: 10px;
+}
+
+.trending-area .trending-main .trending-bottom .single-bottom .trend-bottom-img {
+  min-width: 230px;
+  min-height: 150px;
+  max-height: 150px;
+  border-radius: 7px;
+}
+.trending-area .trending-main .trending-bottom .single-bottom .trend-bottom-img img {
+  -o-object-position: center;
+     object-position: center;
+  min-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=custom.css.map */
