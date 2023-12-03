@@ -26,14 +26,17 @@ class FrontendController extends Controller
             $category_news[$category->id] = News::where('category_id', $category->id)->orderByDesc('created_at')->limit(6)->get();
         }
         $blog = Blogs::where('is_read', 1)->orderByDesc('created_at')->limit(9)->get();
-        $newDate = date('d');
+        $newDate = date_create();
         $news = News::where('type_new', 0)->orderByDesc('created_at')->limit(6)->get();
         $weekly_top_news = [];
-        foreach ($news as $item) {
+        foreach ($news as $key => $item) {
             $dateBd = date_create($item->created_at);
             $dateBd_day = date_format($dateBd, 'd');
-            if($newDate - $dateBd_day <= 7) {
+            if($newDate > $dateBd_day) {
                 array_push($weekly_top_news, $item);
+            }
+            if ($key == 8) {
+                break;
             }
         }
         $youtube = Youtube::orderByDesc('created_at')->limit(8)->get();
