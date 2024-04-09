@@ -6,11 +6,11 @@ Tài khoản: admin@gmail.com
 Mật khẩu: admin@gmail.com
 ## User
 # Home page
-![screencapture-127-0-0-1-8000-2024-04-09-22_11_35](https://github.com/LeHuyHieu/Laravel_TinTuc/assets/126578220/c8f74893-73bc-438f-a14a-5dbee352d01d)
+![screencapture-127-0-0-1-8000-2024-04-09-22_31_22](https://github.com/LeHuyHieu/Laravel_TinTuc/assets/126578220/8de61080-fe9f-44f7-b43a-3f08c4c8cd40)
 # Category
 ![screencapture-127-0-0-1-8000-category-4-2024-04-09-22_12_30](https://github.com/LeHuyHieu/Laravel_TinTuc/assets/126578220/591a942e-98f7-46d7-aa44-561c37c843c0)
 # Details page & comment & related news
-![screencapture-127-0-0-1-8000-details-34-2024-04-09-22_13_18](https://github.com/LeHuyHieu/Laravel_TinTuc/assets/126578220/b7ead7b0-6388-40bd-8fe0-fc7259a66267)
+![screencapture-127-0-0-1-8000-details-34-2024-04-09-22_32_05](https://github.com/LeHuyHieu/Laravel_TinTuc/assets/126578220/c8386005-5391-4917-b2f5-6bcf23836657)
 # Login & register
 ![screencapture-127-0-0-1-8000-login-2024-04-09-22_16_22](https://github.com/LeHuyHieu/Laravel_TinTuc/assets/126578220/b9bdf78b-fc7b-4c77-85a3-9f47e7b72f57)
 # Blog
